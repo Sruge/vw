@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Komponist: React.FC = () => {
-    const soundCloudEmbedUrl = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1649402727&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'; // Replace with your SoundCloud embed URL
-    const youtubeEmbedUrl = 'https://www.youtube.com/embed/FjYxIkjGvQE?si=ra-uEo8kVzQZjw2b'; // Replace with your YouTube video ID
+    const soundCloudEmbedUrl = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1641791442&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'; // Replace with your SoundCloud embed URL
+    const youtubeEmbedUrl = 'https://www.youtube.com/embed/JvpiNeSa1SI?si=_PTT1_pqmgRVJvgK';
 
     return (
         <div className='p-4'>
@@ -42,7 +42,7 @@ const Komponist: React.FC = () => {
                 ></iframe>
             </div>
             <p className='bold-text px-4 pt-3 fs-4'>A YOUTUBE VIDEO</p>
-            <div className="embed-responsive embed-responsive-16by9 px-4">
+            <div className="video-responsive mx-4">
                 <iframe
                     width="560"
                     height="315"

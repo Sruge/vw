@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
         <nav className="navbar navbar-expand-lg fixed-top p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0)'}}>
             <div className="container-fluid align-items-start">
                 <Link className="navbar-brand" to="/">
-                    <img src={logo} alt="Logo" style={{maxHeight: '80px'}}/>
+                    <img src={logo} alt="Logo" style={{maxHeight: '130px'}}/>
                 </Link>
                 <button
                     className={"navbar-toggler" + (isNavCollapsed ? '' : ' collapsed')}
