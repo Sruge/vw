@@ -1,0 +1,79 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-item {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.nav-link {
+    width: auto;
+}
+
+.img-fluid-w-100 {
+    object-fit: cover;
+    height: 100vh;
+}
+
+.text-section {
+    padding: 1rem;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.small-text {
+    font-size: 8px;
+}
+
+.bold-heading {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.list-item {
+    /* Styles for list items if needed */
+}
+
+.horizontal-line {
+    border-bottom: 0.2rem solid black;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/* Custom CSS */
+.border-text {
+    color: black; /* Make the text color black */
+    font-weight: bold; /* Make the text bold */
+    text-shadow:
+            -1px -1px 0 #fff,
+            1px -1px 0 #fff,
+            -1px 1px 0 #fff,
+            1px 1px 0 #fff; /* Create a white border effect */
+}
+
+.active-link {
+    text-decoration: underline;
+}
+
+
+
+
+
