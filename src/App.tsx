@@ -4,7 +4,6 @@ import {
     Routes,
     Route,
 } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import OtherPage from './components/OtherPage';
@@ -22,7 +21,7 @@ const App: React.FC = () => {
         <Router>
             <Navbar />
             <Routes>
-                <Route path="/" element={<HomePage />} /> {/* This should reference the HomePage component */}
+                <Route path="/" element={<HomePage />} />
                 <Route path="/komponist" element={<OtherPage imageUrl={Bild3} content={<Komponist />} />} />
                 <Route path="/musiker" element={<OtherPage imageUrl={Bild6} content={<Musiker />} />} />
                 <Route path="/lehrer" element={<OtherPage imageUrl={Bild4} content={<Lehrer />} />} />

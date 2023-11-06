@@ -5,7 +5,6 @@ import TextColumns from "./TextColumns";
 import Concerts from "./Concerts";
 
 const HomePage: React.FC = () => {
-    // Inline style to hide scrollbars across all browsers
     const containerStyle: React.CSSProperties = {
         overflowY: 'scroll', // Allows for scrolling
         msOverflowStyle: 'none', // IE and Edge

@@ -9,7 +9,7 @@ interface OtherPageProps {
 const OtherPage: React.FC<OtherPageProps> = ({imageUrl, content}) => {
     const desktopTextStyle: React.CSSProperties = {
         paddingTop: '60vh', // Starts the text at around 2/3 of the screen
-        marginTop: '120px',
+        marginTop: '140px',
         overflowY: 'auto', // Allows for scrolling
     };
 

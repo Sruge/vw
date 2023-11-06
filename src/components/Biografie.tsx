@@ -2,16 +2,17 @@ import React from 'react';
 
 const Biografie: React.FC = () => {
     return <div className='p-5 justified'>
-        Erste Erfahrungen in der Jugendarbeit der Bürgerkapelle Gries, seit 2013 Privatunterricht in Wien (überwiegend Klavier). Seitdem durchgehend Privatschüler an den Instrumenten Klavier, Saxophon, Gitarre, Klarinette. Außerdem Theorie und Gehörschulung als Vorbereitung für Aufnahmeprüfungen sowie Unterricht in Improvisation und Jazz-Theorie bzw. Komposition.
+        Der Multiinstrumentalist und Komponist Valentin Gasser erhielt den ersten Saxophonunterricht von seinem Vater
+        und besuchte bis 2010 die Musikschule Bozen bei Hans Tutzer. Von 2010 bis 2018 studierte er an der
+        Konservatorium Wien Privatuniversität (später Universität für Musik und Kunst) zuerst Jazz-Saxophon (bei Prof.
+        Thomas Huber) und anschließend Jazz-Komposition & Arrangement (Prof. Andy Middleton).
+        Neben dem Saxophon spielt er unter anderem auch Klavier, Gitarre, Querflöte, Klarinette, Schlagzeug und
+        Trompete.
 
-        An den Musikschulen des Landes hat Valentin nach einer Jahresstelle als Saxophonlehrer und in Theoriefächern (Musikkunde Bronze, Musikkunde Silber, Weiterführender Theoriekurs Gold+) als Supplenz für Saxophon, Klavier, Jazz-Pop-Rock-Piano/elektronische Tasteninstrumente und Klarinette gearbeitet.
-
-        Irgendwo zwischen Komposition und Unterrichten angesiedelt ist ein jüngeres Projekt:
-        Entstanden als „Klangkreis“ beim alljährlichen Jugendcamp der Bürgerkapelle Gries, über das sogenannte „Wandelkonzert“ mit den Jugendkapellen Gries und Zwölfmalgreien und anschließend als „Musikreativ“ an der Musikschule Deutschnofen;
-
-        In diesem Format erarbeitet Valentin Gasser gemeinsam mit den Teilnehmern (bzw. die Kinder und Jugendlichen bekommen Einblick wie eine Komposition entsteht) ein 3-10 Minuten langes Werk für variable Besetzung und Gruppengröße das (größtenteils) ohne Noten auskommt.
-
-        (O-TON: Sabrina & Dieter)
-    </div>;};
+        Seit Sommer 2018 lebt Valentin Gasser wieder in Bozen, unterrichtet (hauptsächlich Saxophon und Klavier), spielt
+        in diversen Ensembles sowie als Solist, komponiert und arrangiert (sowohl Jazz, als auch Klassik und
+        symphonische Blasmusik).
+    </div>;
+};
 
 export default Biografie;
