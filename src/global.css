@@ -1,3 +1,7 @@
+/* Put this at the top of your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+
 .fixed-top {
     position: fixed;
     top: 0;
@@ -9,7 +13,7 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif, Arial, Helvetica, sans-serif;
 }
 
 .container-fluid {

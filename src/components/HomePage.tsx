@@ -21,11 +21,31 @@ const HomePage: React.FC = () => {
     }
   `;
 
+    const containerStyle2: React.CSSProperties = {
+        position: 'relative', // Relative position for the container
+    };
+
+    const textStyle: React.CSSProperties = {
+        position: 'absolute', // Absolute position for the text
+        bottom: '0', // Positioned at the bottom of the container
+        left: '3rem', // Positioned at the left of the container
+        backgroundColor: 'rgba(0, 0, 0, 0)', // Optional: semi-transparent background for better readability
+        color: 'black', // Text color
+        fontSize: '1.5rem',
+    };
+
     return (
         <div className="container-fluid p-0" style={containerStyle}>
             <style dangerouslySetInnerHTML={{__html: webkitScrollbarStyle}}/>
-            <img src={homeImage} alt="Home" className="img-fluid w-100" style={{height: '100vh', objectFit: 'cover'}}/>
+            <div style={containerStyle2}>
 
+                <img src={homeImage} alt="Home" className="img-fluid w-100"
+                     style={{height: '100vh', objectFit: 'cover'}}/>
+                <div style={textStyle}>
+                    <p className='mb-0'>„Musik spricht dort, wo Worte fehlen“</p>
+                    <p>(Hans Christian Andersen)</p>
+                </div>
+            </div>
             <div className='p-5'>
                 <TextColumns/>
             </div>
