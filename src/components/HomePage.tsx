@@ -1,5 +1,6 @@
 import React from 'react';
 import homeImage from '../assets/Bild1.jpg';
+import homeImageMob from '../assets/Bild1mobile.jpg';
 import ContactInfo from "./Contact";
 import TextColumns from "./TextColumns";
 import Concerts from "./Concerts";
@@ -21,7 +22,7 @@ const HomePage: React.FC = () => {
     }
   `;
 
-    const containerStyle2: React.CSSProperties = {
+    const imageContainer: React.CSSProperties = {
         position: 'relative', // Relative position for the container
     };
 
@@ -37,15 +38,18 @@ const HomePage: React.FC = () => {
     return (
         <div className="container-fluid p-0" style={containerStyle}>
             <style dangerouslySetInnerHTML={{__html: webkitScrollbarStyle}}/>
-            <div style={containerStyle2}>
-
-                <img src={homeImage} alt="Home" className="img-fluid w-100"
-                     style={{height: '100vh', objectFit: 'cover'}}/>
+            <div style={imageContainer}>
+                <picture>
+                    <source media="(min-width: 768px)" srcSet={homeImage}/>
+                    <img src={homeImageMob} alt="Home" className="img-fluid w-100"
+                         style={{height: '100vh', objectFit: 'cover'}}/>
+                </picture>
                 <div style={textStyle}>
                     <p className='mb-0'>„Musik spricht dort, wo Worte fehlen“</p>
                     <p>(Hans Christian Andersen)</p>
                 </div>
             </div>
+
             <div className='p-5'>
                 <TextColumns/>
             </div>
