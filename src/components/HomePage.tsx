@@ -46,9 +46,10 @@ const HomePage: React.FC = () => {
                 <div className="col-lg-6">
                     <ContactInfo/>
                 </div>
-                <div className="col-lg-6">
-                    <Concerts/>
-                </div>
+                {/*Comment back in when there are any concerts to show :)*/}
+                {/*<div className="col-lg-6">*/}
+                {/*    <Concerts/>*/}
+                {/*</div>*/}
             </div>
         </div>
     );
