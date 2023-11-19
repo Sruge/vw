@@ -52,7 +52,7 @@ const Komponist: React.FC = () => {
                 </p>
             </div>
             <p className='bold-text px-4 pt-3 fs-4'>ARGE ALP FANFARE</p>
-            <div className="video-responsive mx-4 mb-4">
+            <div className="video-responsive mx-4">
                 <iframe
                     width="560"
                     height="315"
