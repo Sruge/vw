@@ -17,7 +17,7 @@ const TextColumns: React.FC = () => {
                     Unterrichten
                 </p>
                 <p>
-                    Spielen
+                    Musizieren
                 </p>
             </div>
             <div className="col-12 col-lg-6">
