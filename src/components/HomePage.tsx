@@ -3,8 +3,6 @@ import homeImage from '../assets/Bild1.jpg';
 import homeImageMob from '../assets/Bild1mobile.jpg';
 import ContactInfo from "./Contact";
 import TextColumns from "./TextColumns";
-import Concerts from "./Concerts";
-
 const HomePage: React.FC = () => {
     const containerStyle: React.CSSProperties = {
         overflowY: 'scroll', // Allows for scrolling

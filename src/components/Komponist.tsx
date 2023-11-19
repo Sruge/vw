@@ -43,7 +43,7 @@ const Komponist: React.FC = () => {
                     src={soundCloudEmbedUrl}
                 ></iframe>
             </div>
-            <div className='px-4 justified'>
+            <div className="p-4 justified">
                 <p>
                     Beispielhaft für Valentin's Arbeit als Jazz-Komponist ist diese Suite für Big-Band, die er in seinen
                     Studienjahren in Wien komponierte und arrangierte; dann mit seiner eigenen Big Band geprobt und
@@ -63,7 +63,7 @@ const Komponist: React.FC = () => {
                     allowFullScreen
                 ></iframe>
             </div>
-            <div className="p-4">
+            <div className="p-4 justified">
                 <p>Im Frühjahr 2020 beteiligte sich Valentin am „Klingende Alpen“ Kompositionswettbewerb für eine Arge
                     Alp
                     Fanfare.
