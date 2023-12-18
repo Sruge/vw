@@ -26,7 +26,7 @@ const TextColumns: React.FC = () => {
                     umfassenden Musikers. Ich würde nie auf eine dieser drei Tätigkeiten verzichten wollen, da sie sich
                     gegenseitig befruchten. Als ausführenden Musiker stehe ich auf der Bühne und spiele Werke, die ich
                     komponiert habe und als Lehrender entdecke ich gemeinsam mit meinen Lernenden neue Nuancen und
-                    Aspekte, die ich dann als Komponist verwenden kann. Es ließen sich noch viele Beispiele finde, doch
+                    Aspekte, die ich dann als Komponist verwenden kann. Es ließen sich noch viele Beispiele finden, doch
                     zusammengefasst ist es dieser Kreislauf, der mich glücklich macht und es ist mir ein Anliegen diese
                     „Dreieinigkeit“ auch auf meiner Webseite zum Ausdruck zu bringen.“
                 </p>

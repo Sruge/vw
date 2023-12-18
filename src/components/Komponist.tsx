@@ -27,9 +27,6 @@ const Komponist: React.FC = () => {
                     seine ersten Werke für symphonisches Blasorchester.
                 </p>
                 <p>
-                    "Zitat Georg"
-                </p>
-                <p>
                     Hier ausgewählte Werke aus dem umfassenden Œuvre des Komponisten Valentin Gasser: </p>
             </div>
             <p className='bold-text px-4 fs-4'>BIG BAND SUITE</p>

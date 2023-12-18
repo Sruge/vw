@@ -3,6 +3,8 @@ import homeImage from '../assets/Bild1.jpg';
 import homeImageMob from '../assets/Bild1mobile.jpg';
 import ContactInfo from "./Contact";
 import TextColumns from "./TextColumns";
+import {Link} from "react-router-dom";
+
 const HomePage: React.FC = () => {
     const containerStyle: React.CSSProperties = {
         overflowY: 'scroll', // Allows for scrolling
@@ -44,11 +46,14 @@ const HomePage: React.FC = () => {
                 <div className="col-lg-6">
                     <ContactInfo/>
                 </div>
-                {/*Comment back in when there are any concerts to show :)*/}
-                {/*<div className="col-lg-6">*/}
-                {/*    <Concerts/>*/}
-                {/*</div>*/}
+                <div className="col-lg-6 text-end mt-2 d-flex flex-column justify-content-end">
+                    <Link to="/imprint" className="text-decoration-none">
+                        <p className='medium-text m-0 text-dark'>IMPRINT & PRIVACY</p>
+                        <p className='medium-text pb-3 m-0 text-dark'>© VALENTIN GASSER</p>
+                    </Link>
+                </div>
             </div>
+
         </div>
     );
 };

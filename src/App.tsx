@@ -15,6 +15,7 @@ import Musiker from "./components/Musiker";
 import Biografie from "./components/Biografie";
 import Lehrer from "./components/Lehrer";
 import Komponist from "./components/Komponist";
+import Imprint from "./components/Imprint";
 
 const App: React.FC = () => {
     return (
@@ -26,6 +27,7 @@ const App: React.FC = () => {
                 <Route path="/musiker" element={<OtherPage imageUrl={Bild6} content={<Musiker />} />} />
                 <Route path="/lehrer" element={<OtherPage imageUrl={Bild4} content={<Lehrer />} />} />
                 <Route path="/biografie" element={<OtherPage imageUrl={Bild2} content={<Biografie />} />} />
+                <Route path="/imprint" element={<Imprint/>} />
             </Routes>
         </Router>
     );
