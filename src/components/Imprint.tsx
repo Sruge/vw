@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactInfo from "./Contact";
 
 const Imprint: React.FC = () => {
     const desktopTextStyle: React.CSSProperties = {
