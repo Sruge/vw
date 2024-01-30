@@ -1,23 +1,24 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const TextColumns: React.FC = () => {
     return (
         <div className="row justified">
             <div className="col-12 col-lg-6">
                 <p>
-                    Willkommen auf der Homepage des Südtiroler Musikers Valentin Gasser.
+                    Willkommen auf der Homepage des Südtiroler Komponisten, Multinstrumentalisten und Lehrers Valentin Gasser
                 </p>
                 <p>
                     „Für mich persönlich fußt mein Musikerdasein auf drei tragenden Säulen:
                 </p>
                 <p>
-                    Komponieren
+                    <Link className="text-dark fw-bold text-decoration-none" to="/komponist">Komponieren</Link>
                 </p>
                 <p>
-                    Unterrichten
+                    <Link className="text-dark fw-bold text-decoration-none" to="/musiker">Musizieren</Link>
                 </p>
                 <p>
-                    Musizieren
+                    <Link className="text-dark fw-bold text-decoration-none" to="/lehrer">Unterrichten</Link>
                 </p>
             </div>
             <div className="col-12 col-lg-6">

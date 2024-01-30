@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Komponist: React.FC = () => {
-    const soundCloudEmbedUrl = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/459981777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'; // Replace with your SoundCloud embed URL
+    const soundCloudEmbedUrl = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/459981777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true';
+    const soundCloudEmbedUrlMindscapes = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1691143524&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true';
     const youtubeEmbedUrl = 'https://www.youtube.com/embed/_dQQPoF72PQ?si=0aVGtQl_xXnoe35w';
-
     return (
         <div className='p-4'>
             <div className='px-4 justified'>
@@ -67,6 +67,29 @@ const Komponist: React.FC = () => {
                     Unter 42 Einsendungen aus 4 Nationen konnte Valentin den mit 5000 € dotierten ersten Preis gewinnen.
                     Es
                     war dies Valentin's erster (und bislang einziger) Wettbewerb.</p>
+            </div>
+            <p className='bold-text px-4 fs-4'>MINDSCAPES</p>
+            <div className="embed-responsive embed-responsive-16by9 px-4">
+                <iframe
+                    width="100%"
+                    height="166"
+                    scrolling="no"
+                    frameBorder="no"
+                    allow="autoplay"
+                    src={soundCloudEmbedUrlMindscapes}
+                ></iframe>
+            </div>
+            <div className="p-4 justified">
+                <p>
+                    Mit der Komposition und Uraufführung von „Mindscapes“ für Tenorsaxophon und symphonisches
+                    Blasorchester verwirklichte sich Valentin am 01.01.2023 einen lebenslangen Traum.
+                    Ein dreisätziges Solo-Konzert mit jazzigen Einflüssen aber trotzdem in seiner ganz eigenen
+                    Tonsprache, uraufgeführt bei dem prestigereichen Neujahrskonzert der Bürgerkapelle Gries.
+
+                    "Wie durch ein Zauber versetzt uns die Musik von Valentin mit ungehörten harmonischen Abläufen in
+                    wenigen Sekunden ins Innerste unserer eigenen Gefühlswelt. Eine neue Klangwelt für Blasorchester.
+                    Danke dafür!!" (Georg Thaler, Kapellmeister der Bürgerkapelle Gries)
+                </p>
             </div>
         </div>
     );

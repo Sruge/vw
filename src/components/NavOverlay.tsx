@@ -4,7 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/logo.png';
 
-const NavOverlay = ({ handleNavCollapse }) => {
+interface NavOverlayProps {
+    handleNavCollapse: () => void;
+}
+
+const NavOverlay: React.FC<NavOverlayProps> = ({ handleNavCollapse }) => {
     return (
         <div className="custom-overlay">
             <div className="overlay-header">
@@ -20,7 +24,6 @@ const NavOverlay = ({ handleNavCollapse }) => {
                 <Link to="/musiker" className="nav-link" onClick={handleNavCollapse}>MUSIKER</Link>
                 <Link to="/lehrer" className="nav-link" onClick={handleNavCollapse}>LEHRER</Link>
                 <Link to="/biografie" className="nav-link" onClick={handleNavCollapse}>BIOGRAFIE</Link>
-                <Link to="/imprint" className="nav-link" onClick={handleNavCollapse}>IMPRINT</Link>
             </div>
         </div>
     );

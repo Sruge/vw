@@ -31,16 +31,24 @@ const Imprint: React.FC = () => {
                     <p>
                         Sarah Mair
                     </p>
-                    <p>
-                        www.sarahmair.com
+                    <p >
+                        <a className="text-dark" href="https://sarahmair.com">
+                            sarahmair.com
+                        </a>
                     </p>
-                    <p className="font-bold">
+                    <p className="fw-bold">
                         DEVELOPMENT
                     </p>
                     <p>
                         Gerhard Knapp
                     </p>
-                    <p className="font-bold">
+                    <p className="fw-bold">
+                        PHOTOS
+                    </p>
+                    <p>
+                        Nilo Klotz
+                    </p>
+                    <p className="fw-bold">
                         LIABILITY FOR CONTENTS
                     </p>
                     <p>
