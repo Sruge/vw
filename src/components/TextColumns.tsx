@@ -6,7 +6,7 @@ const TextColumns: React.FC = () => {
         <div className="row justified">
             <div className="col-12 col-lg-6">
                 <p>
-                    Willkommen auf der Homepage des Südtiroler Komponisten, Multinstrumentalisten und Lehrers Valentin Gasser
+                    Willkommen auf der Homepage des Südtiroler Komponisten, Multiinstrumentalisten und Lehrers Valentin Gasser
                 </p>
                 <p>
                     „Für mich persönlich fußt mein Musikerdasein auf drei tragenden Säulen:

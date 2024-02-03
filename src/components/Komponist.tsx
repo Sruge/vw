@@ -29,7 +29,7 @@ const Komponist: React.FC = () => {
                 <p>
                     Hier ausgewählte Werke aus dem umfassenden Œuvre des Komponisten Valentin Gasser: </p>
             </div>
-            <p className='bold-text px-4 fs-4'>BIG BAND SUITE</p>
+            <p className='bold-text px-4 fs-4'>SUITE FOR BIG BAND</p>
             <div className="embed-responsive embed-responsive-16by9 px-4">
                 <iframe
                     width="100%"
@@ -85,7 +85,8 @@ const Komponist: React.FC = () => {
                     Blasorchester verwirklichte sich Valentin am 01.01.2023 einen lebenslangen Traum.
                     Ein dreisätziges Solo-Konzert mit jazzigen Einflüssen aber trotzdem in seiner ganz eigenen
                     Tonsprache, uraufgeführt bei dem prestigereichen Neujahrskonzert der Bürgerkapelle Gries.
-
+                </p>
+                <p>
                     "Wie durch ein Zauber versetzt uns die Musik von Valentin mit ungehörten harmonischen Abläufen in
                     wenigen Sekunden ins Innerste unserer eigenen Gefühlswelt. Eine neue Klangwelt für Blasorchester.
                     Danke dafür!!" (Georg Thaler, Kapellmeister der Bürgerkapelle Gries)
