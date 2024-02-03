@@ -8,21 +8,21 @@ const TextColumns: React.FC = () => {
                 <p>
                     Willkommen auf der Homepage des Südtiroler Komponisten, Multiinstrumentalisten und Lehrers Valentin Gasser
                 </p>
-                <p>
+                <p className='fst-italic'>
                     „Für mich persönlich fußt mein Musikerdasein auf drei tragenden Säulen:
                 </p>
-                <p>
+                <p className='fst-italic'>
                     <Link className="text-dark fw-bold text-decoration-none" to="/komponist">Komponieren</Link>
                 </p>
-                <p>
+                <p className='fst-italic'>
                     <Link className="text-dark fw-bold text-decoration-none" to="/musiker">Musizieren</Link>
                 </p>
-                <p>
+                <p className='fst-italic'>
                     <Link className="text-dark fw-bold text-decoration-none" to="/lehrer">Unterrichten</Link>
                 </p>
             </div>
             <div className="col-12 col-lg-6">
-                <p>
+                <p className='fst-italic'>
                     Jeder dieser drei Aspekte ist gleichwertig und zusammen ergänzen sie sich zu meinem Bild eines
                     umfassenden Musikers. Ich würde nie auf eine dieser drei Tätigkeiten verzichten wollen, da sie sich
                     gegenseitig befruchten. Als ausführenden Musiker stehe ich auf der Bühne und spiele Werke, die ich

@@ -7,7 +7,7 @@ const Komponist: React.FC = () => {
     return (
         <div className='p-4'>
             <div className='px-4 justified'>
-                <p>
+                <p className='fst-italic'>
                     „Für mich war es stets selbstverständlich, dass man als ausführender Musiker auch selbst
                     komponiert.“
                 </p>
@@ -16,7 +16,7 @@ const Komponist: React.FC = () => {
                     im Alter von 10 Jahren komponiert. Nach seiner Sturm und Drang-Phase in der Punk/Rock-Band
                     „Petrolium“ (12. bis 15. Lebensjahr) folgte der Einstieg in die Welt des Jazz.
                 </p>
-                <p>
+                <p className='fst-italic'>
                     „Während des Saxophonstudiums wurde mir klar, dass das Spielen eines Instrumentes für mich
                     untrennbar mit dem Komponieren verbunden ist. So entschloss ich mich nach 2 Semestern Jazz-Saxophon
                     auch Komposition und Arrangement zu studieren.“
@@ -86,10 +86,10 @@ const Komponist: React.FC = () => {
                     Ein dreisätziges Solo-Konzert mit jazzigen Einflüssen aber trotzdem in seiner ganz eigenen
                     Tonsprache, uraufgeführt bei dem prestigereichen Neujahrskonzert der Bürgerkapelle Gries.
                 </p>
-                <p>
+                <p className='fst-italic'>
                     "Wie durch ein Zauber versetzt uns die Musik von Valentin mit ungehörten harmonischen Abläufen in
                     wenigen Sekunden ins Innerste unserer eigenen Gefühlswelt. Eine neue Klangwelt für Blasorchester.
-                    Danke dafür!!" (Georg Thaler, Kapellmeister der Bürgerkapelle Gries)
+                    Danke dafür!" (Georg Thaler, Kapellmeister der Bürgerkapelle Gries)
                 </p>
             </div>
         </div>
