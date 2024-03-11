@@ -1,32 +1,25 @@
 import React from 'react';
+import {useTranslation} from "react-i18next";
 
 const PageContentOne: React.FC = () => {
+    const { t } = useTranslation();
+
     return <div className='p-4'>
         <p className='px-4 justified'>
-            Erste Erfahrungen im Unterrichten sammelte Valentin in der Jugendarbeit der Bürgerkapelle Gries. 2013 begann
-            er Privatunterricht in Wien zu geben (überwiegend Klavier) und unterrichtete seitdem durchgehend
-            Privatschüler an den Instrumenten Klavier, Saxophon, Gitarre und Klarinette. Des Weiteren Theorie und
-            Gehörschulung als Vorbereitung für Aufnahmeprüfungen sowie Unterricht in Improvisation und Jazz-Theorie bzw.
-            Komposition.
+            {t('lehrer_absatz1')}
         </p>
         <p className='px-4 justified'>
-            An den Musikschulen des Landes nahm Valentin mehrere Jahresstellen als Saxophonlehrer und als Lehrer in
-            Theoriefächern (Musikkunde Bronze, Musikkunde Silber, Weiterführender Theoriekurs Gold+) an. Währenddessen
-            arbeitete er zusätzlich noch als Supplenz in den Instrumentalfächern Saxophon, Klavier,
-            Jazz-Pop-Rock-Piano/elektronische Tasteninstrumente und Klarinette.
+            {t('lehrer_absatz2')}
+
         </p>
         <p className='px-4 justified mb-0'>
-            Irgendwo zwischen Komposition und Unterrichten angesiedelt ist ein jüngeres Projekt:
+            {t('lehrer_absatz3')}
         </p>
         <p className='px-4 justified'>
-            Entstanden als „Klangkreis“ beim alljährlichen Jugendcamp der Bürgerkapelle Gries, über das sogenannte
-            „Wandelkonzert“ mit den Jugendkapellen Gries und Zwölfmalgreien entsteht anschließend das Projekt
-            „Musikreativ“ an der Musikschule Deutschnofen.
+            {t('lehrer_absatz4')}
         </p>
         <p className='px-4 justified'>
-            In diesem Format erarbeitet Valentin Gasser gemeinsam mit den Teilnehmern (bzw. die Kinder und Jugendlichen
-            bekommen Einblick wie eine Komposition entsteht) ein 3-10 Minuten langes Werk für variable Besetzung und
-            Gruppengröße das (größtenteils) ohne Noten auskommt.
+            {t('lehrer_absatz5')}
         </p>
     </div>
 };
