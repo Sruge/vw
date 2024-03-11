@@ -37,6 +37,7 @@ const Musiker: React.FC = () => {
             <p>Berise</p>
             <p>Wicked & Bonny</p>
             <p>Expulze & Narfos</p>
+            <p>Manu Mischkonsum</p>
             <p>Fruity Sessions</p>
 
             <p className='bold-heading'>DJ's:</p>
