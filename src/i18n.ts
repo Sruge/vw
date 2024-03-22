@@ -1,13 +1,13 @@
-import i18n from 'i18next';
+import i18n, { Resource } from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import {resources} from "./translations";
+import { resources as myResources } from './translations';
 
 i18n
     .use(initReactI18next)
-    .use(LanguageDetector) // Use the language detector
+    .use(LanguageDetector)
     .init({
-        resources,
+        resources: myResources as unknown as Resource,
         fallbackLng: "de",
         detection: {
             order: ['querystring', 'cookie', 'localStorage', 'sessionStorage', 'navigator', 'htmlTag'],

@@ -15,7 +15,6 @@ const Navbar: React.FC = () => {
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
     const isHomePage = location.pathname === '/' || location.pathname === '/imprint';
     const navLinkClass = isHomePage ? "nav-link text-dark" : "nav-link text-white";
-    const languageSwitcherClass = isHomePage ? "text-dark" : "text-white";
     const togglerIconColor = isHomePage ? "text-dark" : "text-white";
 
     const changeLanguage = (language: string) => {
