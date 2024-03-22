@@ -56,9 +56,9 @@ const Navbar: React.FC = () => {
                             <Link className={navLinkClass} to="/biografie">{t('biografie_nav')}</Link>
                         </li>
                         <div className="language-switcher nav-item d-flex align-items-center">
-                            <button className={`btn btn-link ${navLinkClass}`} onClick={() => changeLanguage('en')}>EN</button>
-                            <span className={`divider ${navLinkClass}`}>|</span>
-                            <button className={`btn btn-link ${navLinkClass}`} onClick={() => changeLanguage('de')}>DE</button>
+                            <button className={`btn btn-link p-1 pl-2 ${navLinkClass}`} onClick={() => changeLanguage('en')}>EN</button>
+                            <span className={`divider p-1 ${navLinkClass}`}>|</span>
+                            <button className={`btn btn-link p-1 ${navLinkClass}`} onClick={() => changeLanguage('de')}>DE</button>
                         </div>
                     </ul>
                 </div>

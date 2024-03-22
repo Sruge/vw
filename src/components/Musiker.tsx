@@ -32,7 +32,7 @@ const Musiker: React.FC = () => {
             <p className='bold-heading'>
                 {t('musiker_solo')}
             </p>
-            <p>Jazz-Klavier
+            <p> {t('klavier')}
             </p>
             <p>Saxophon</p>
 
@@ -48,8 +48,8 @@ const Musiker: React.FC = () => {
             <p className='bold-heading'>DJ's:</p>
             <p>Mr. Wushu</p>
             <p>DJ MAEXX</p>
-            <p>Sara Louis</p>
             <p>Nilo</p>
+            <p>Sara Louis</p>
         </div>
         </div>
     );

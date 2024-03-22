@@ -31,6 +31,7 @@ interface ITranslation {
     lehrer_absatz4: string,
     lehrer_absatz5: string,
     biografie: string;
+    klavier: string;
 }
 
 interface Resources {
@@ -55,7 +56,7 @@ export const resources: Resources = {
             home_saeule1: "Komponieren",
             home_saeule2: "Musizieren",
             home_saeule3: "Unterrichten",
-            home_text: "Jeder dieser drei Aspekte ist gleichwertig und zusammen ergänzen sie sich zu meinem Bild eines umfassenden Musikers. Ich würde nie auf eine dieser drei Tätigkeiten verzichten wollen, da sie sich gegenseitig befruchten. Als ausführender Musiker stehe ich auf der Bühne und spiele Werke, die ich komponiert habe und als Lehrender entdecke ich gemeinsam mit meinen Lernenden neue Nuancen und Aspekte, die ich dann als Komponist verwenden kann. Es ließen sich noch viele Beispiele finden, doch zusammengefasst ist es dieser Kreislauf, der mich glücklich macht und es ist mir ein Anliegen diese „Dreieinigkeit“ auch auf meiner Webseite zum Ausdruck zu bringen.“",
+            home_text: "Jeder dieser drei Aspekte ist gleichwertig und zusammen ergänzen sie sich zu meinem Bild eines umfassenden Musikers. Ich würde nie auf eine dieser drei Tätigkeiten verzichten wollen, da sie sich gegenseitig befruchten. Als ausführender Musiker stehe ich auf der Bühne und spiele Werke, die ich komponiert habe und als Lehrender entdecke ich gemeinsam mit meinen Lernenden neue Nuancen und Aspekte, die ich dann als Komponist verwenden kann. Es ließen sich noch viele Beispiele finden, doch zusammengefasst ist es dieser Kreislauf, der mich glücklich macht und es ist mir ein Anliegen diese „Dreivaltigkeit“ auch auf meiner Webseite zum Ausdruck zu bringen.“",
             komponist_absatz1: "„Für mich war es stets selbstverständlich, dass man als ausführender Musiker auch selbst komponiert.“",
             komponist_absatz2: "Seine ersten Stücke hat Valentin zusammen mit seinem damaligen Musikschullehrer Hans Tutzer bereits im Alter von 10 Jahren komponiert. Nach seiner Sturm und Drang-Phase in der Punk/Rock-Band „Petrolium“ (12. bis 15. Lebensjahr) folgte der Einstieg in die Welt des Jazz.",
             komponist_absatz3: "„Während des Saxophonstudiums wurde mir klar, dass das Spielen eines Instrumentes für mich untrennbar mit dem Komponieren verbunden ist. So entschloss ich mich nach 2 Semestern Jazz-Saxophon auch Komposition und Arrangement zu studieren.“",
@@ -70,13 +71,14 @@ export const resources: Resources = {
             musiker_absatz3: "Er hat Bühnenerfahrung mit Saxophon, Klavier, Gitarre, Flöte, Klarinette.",
             musiker_heading_zusammenarbeit: "Eine Auswahl an Projekten an denen Valentin beteiligt ist:",
             musiker_solo: "Solo:",
-            musiker_zusammenarbeit: "Zusammenarbeit mit:",
+            musiker_zusammenarbeit: "Aufnahmen als Studiomusiker mit:",
             lehrer_absatz1: "Erste Erfahrungen im Unterrichten sammelte Valentin in der Jugendarbeit der Bürgerkapelle Gries. 2013 begann er Privatunterricht in Wien zu geben (überwiegend Klavier) und unterrichtete seitdem durchgehend Privatschüler an den Instrumenten Klavier, Saxophon, Gitarre und Klarinette. Des Weiteren Theorie und Gehörschulung als Vorbereitung für Aufnahmeprüfungen sowie Unterricht in Improvisation und Jazz-Theorie bzw. Komposition.",
             lehrer_absatz2: "An den Musikschulen des Landes nahm Valentin mehrere Jahresstellen als Saxophonlehrer und als Lehrer in Theoriefächern (Musikkunde Bronze, Musikkunde Silber, Weiterführender Theoriekurs Gold+) an. Währenddessen arbeitete er zusätzlich noch als Supplenz in den Instrumentalfächern Saxophon, Klavier, Jazz-Pop-Rock-Piano/elektronische Tasteninstrumente und Klarinette.",
             lehrer_absatz3: "Irgendwo zwischen Komposition und Unterrichten angesiedelt ist ein jüngeres Projekt:",
             lehrer_absatz4: "Entstanden als „Klangkreis“ beim alljährlichen Jugendcamp der Bürgerkapelle Gries, über das sogenannte „Wandelkonzert“ mit den Jugendkapellen Gries und Zwölfmalgreien entsteht anschließend das Projekt „Musikreativ“ an der Musikschule Deutschnofen.",
             lehrer_absatz5: "In diesem Format erarbeitet Valentin Gasser gemeinsam mit den Teilnehmern (bzw. die Kinder und Jugendlichen bekommen Einblick wie eine Komposition entsteht) ein 3-10 Minuten langes Werk für variable Besetzung und Gruppengröße das (größtenteils) ohne Noten auskommt.",
             biografie: "Der Multiinstrumentalist und Komponist Valentin Gasser erhielt den ersten Saxophonunterricht von seinem Vater und besuchte bis 2010 die Musikschule Bozen bei Hans Tutzer. Von 2010 bis 2018 studierte er an der Konservatorium Wien Privatuniversität (später Universität für Musik und Kunst) zuerst Jazz-Saxophon (bei Prof. Thomas Huber) und anschließend Jazz-Komposition & Arrangement (Prof. Andy Middleton). Neben dem Saxophon spielt er unter anderem auch Klavier, Gitarre, Querflöte, Klarinette, Schlagzeug und Trompete. Seit Sommer 2018 lebt Valentin Gasser wieder in Bozen, unterrichtet (hauptsächlich Saxophon und Klavier), spielt in diversen Ensembles sowie als Solist, komponiert und arrangiert (sowohl Jazz, als auch Klassik und symphonische Blasmusik).",
+            klavier: "Jazz-Klavier"
         },
     },
     en: {
@@ -113,6 +115,7 @@ export const resources: Resources = {
             lehrer_absatz4: "Originating as a \"sound circle\" at the annual youth camp of the Bürgerkapelle Gries, via the so-called \"Wandelkonzert\" with the youth bands Gries and Zwölfmalgreien, the \"Musikreativ\" project was then developed at the music school of Deutschnofen.",
             lehrer_absatz5: "In this format, Valentin Gasser works together with the participants on composing a piece. The children and teenagers gain valuable insight into how a composition is created. The result is a 3–10-minute piece for variable instrumentation and group size, which (for the most part) works without sheet music.",
             biografie: "The multi-instrumentalist and composer Valentin Gasser received his first saxophone lessons from his father and attended music school in Bolzano/Bozen with Hans Tutzer until 2010. From 2010 to 2018, he studied jazz saxophone (under Prof. Thomas Huber) and then jazz composition & arrangement (under Prof. Andy Middleton) at the Conservatory of Vienna Private University (later University of Music and Performing Arts). In addition to saxophone, he also plays piano, guitar, flute, clarinet, drums, and trumpet. In the summer of 2018, Valentin Gasser returned to Bolzano/Bozen, where he teaches (mainly saxophone and piano), plays in various ensembles and as a soloist, composes and arranges (jazz, classical and symphonic wind music).",
+            klavier: "Jazz Piano"
         },
     },
 };
