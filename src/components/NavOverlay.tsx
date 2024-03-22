@@ -10,7 +10,7 @@ interface NavOverlayProps {
 }
 
 const NavOverlay: React.FC<NavOverlayProps> = ({ handleNavCollapse }) => {
-    const { i18n } = useTranslation();
+    const { i18n, t } = useTranslation();
 
     const changeLanguage = (language: string) => {
         i18n.changeLanguage(language);
@@ -28,10 +28,10 @@ const NavOverlay: React.FC<NavOverlayProps> = ({ handleNavCollapse }) => {
                 </button>
             </div>
             <div className="nav-links-center">
-                <Link to="/komponist" className="nav-link" onClick={handleNavCollapse}>KOMPONIST</Link>
-                <Link to="/musiker" className="nav-link" onClick={handleNavCollapse}>MUSIKER</Link>
-                <Link to="/lehrer" className="nav-link" onClick={handleNavCollapse}>LEHRER</Link>
-                <Link to="/biografie" className="nav-link" onClick={handleNavCollapse}>BIOGRAFIE</Link>
+                <Link to="/komponist" className="nav-link" onClick={handleNavCollapse}>{t('komponist_nav')}</Link>
+                <Link to="/musiker" className="nav-link" onClick={handleNavCollapse}>{t('musiker_nav')}</Link>
+                <Link to="/lehrer" className="nav-link" onClick={handleNavCollapse}>{t('lehrer_nav')}</Link>
+                <Link to="/biografie" className="nav-link" onClick={handleNavCollapse}>{t('biografie_nav')}</Link>
                 <div className="language-switcher">
                     <button className="btn btn-link text-black" onClick={() => changeLanguage('en')}>EN</button>
                     <span className="divider text-black">|</span>

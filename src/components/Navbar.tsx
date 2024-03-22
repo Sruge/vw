@@ -10,7 +10,7 @@ import {useTranslation} from "react-i18next";
 const Navbar: React.FC = () => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
     const location = useLocation();
-    const {i18n} = useTranslation();
+    const {i18n, t} = useTranslation();
 
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
     const isHomePage = location.pathname === '/' || location.pathname === '/imprint';
@@ -44,16 +44,16 @@ const Navbar: React.FC = () => {
                 <div className="navbar-nav-desktop">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <Link className={navLinkClass} to="/komponist">KOMPONIST</Link>
+                            <Link className={navLinkClass} to="/komponist">{t('komponist_nav')}</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className={navLinkClass} to="/musiker">MUSIKER</Link>
+                            <Link className={navLinkClass} to="/musiker">{t('musiker_nav')}</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className={navLinkClass} to="/lehrer">LEHRER</Link>
+                            <Link className={navLinkClass} to="/lehrer">{t('lehrer_nav')}</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className={navLinkClass} to="/biografie">BIOGRAFIE</Link>
+                            <Link className={navLinkClass} to="/biografie">{t('biografie_nav')}</Link>
                         </li>
                         <div className="language-switcher nav-item d-flex align-items-center">
                             <button className={`btn btn-link ${navLinkClass}`} onClick={() => changeLanguage('en')}>EN</button>

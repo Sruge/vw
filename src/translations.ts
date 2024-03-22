@@ -82,10 +82,10 @@ export const resources: Resources = {
     en: {
         translation: {
             kontakt_text: "CONTACT",
-            komponist_nav: "COMPOSER:",
+            komponist_nav: "COMPOSER",
             musiker_nav: "MUSICIAN",
-            lehrer_nav: "TEACHER:",
-            biografie_nav: "BIOGRAPHY:",
+            lehrer_nav: "TEACHER",
+            biografie_nav: "BIOGRAPHY",
             home_welcome: "Welcome to the homepage of the South Tyrolean composer, multi-instrumentalist and teacher Valentin Gasser",
             home_zitat: "\"My musical existence is based on three main pillars:",
             home_saeule1: "Composing",
