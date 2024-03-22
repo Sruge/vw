@@ -1,6 +1,9 @@
 import React from 'react';
+import {useTranslation} from "react-i18next";
 
 const Komponist: React.FC = () => {
+    const {t} = useTranslation();
+
     const soundCloudEmbedUrl = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/459981777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true';
     const soundCloudEmbedUrlMindscapes = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1691143524&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true';
     const youtubeEmbedUrl = 'https://www.youtube.com/embed/_dQQPoF72PQ?si=0aVGtQl_xXnoe35w';
@@ -8,26 +11,23 @@ const Komponist: React.FC = () => {
         <div className='p-4'>
             <div className='px-4 justified'>
                 <p className='fst-italic'>
-                    „Für mich war es stets selbstverständlich, dass man als ausführender Musiker auch selbst
-                    komponiert.“
+                    {t('komponist_absatz1')}
                 </p>
                 <p>
-                    Seine ersten Stücke hat Valentin zusammen mit seinem damaligen Musikschullehrer Hans Tutzer bereits
-                    im Alter von 10 Jahren komponiert. Nach seiner Sturm und Drang-Phase in der Punk/Rock-Band
-                    „Petrolium“ (12. bis 15. Lebensjahr) folgte der Einstieg in die Welt des Jazz.
+                    {t('komponist_absatz2')}
+
                 </p>
                 <p className='fst-italic'>
-                    „Während des Saxophonstudiums wurde mir klar, dass das Spielen eines Instrumentes für mich
-                    untrennbar mit dem Komponieren verbunden ist. So entschloss ich mich nach 2 Semestern Jazz-Saxophon
-                    auch Komposition und Arrangement zu studieren.“
+                    {t('komponist_absatz3')}
+
                 </p>
                 <p>
-                    Nach seiner Rückkehr nach Südtirol wurde aus den bis dahin vorherrschenden Jazz-Kompositionen ein
-                    noch breiterer und stilistisch undefinierbarer Genremix. In dieser Zeit schrieb er zum Beispiel
-                    seine ersten Werke für symphonisches Blasorchester.
+                    {t('komponist_absatz4')}
+
                 </p>
                 <p>
-                    Hier ausgewählte Werke aus dem umfassenden Œuvre des Komponisten Valentin Gasser: </p>
+                    {t('komponist_absatz5')}
+                </p>
             </div>
             <p className='bold-text px-4 fs-4'>SUITE FOR BIG BAND</p>
             <div className="embed-responsive embed-responsive-16by9 px-4">
@@ -42,10 +42,7 @@ const Komponist: React.FC = () => {
             </div>
             <div className="p-4 justified">
                 <p>
-                    Beispielhaft für Valentin's Arbeit als Jazz-Komponist ist diese Suite für Big-Band, die er in seinen
-                    Studienjahren in Wien komponierte und arrangierte; dann mit seiner eigenen Big Band geprobt und
-                    aufgeführt hat. Diese Aufnahme entstand im Rahmen seines Abschlusskonzertes für Jazz-Komposition im
-                    Porgy & Bess in Wien.
+                    {t('komponist_bigband')}
                 </p>
             </div>
             <p className='bold-text px-4 pt-3 fs-4'>ARGE ALP FANFARE</p>
@@ -61,12 +58,9 @@ const Komponist: React.FC = () => {
                 ></iframe>
             </div>
             <div className="p-4 justified">
-                <p>Im Frühjahr 2020 beteiligte sich Valentin am „Klingende Alpen“ Kompositionswettbewerb für eine Arge
-                    Alp
-                    Fanfare.
-                    Unter 42 Einsendungen aus 4 Nationen konnte Valentin den mit 5000 € dotierten ersten Preis gewinnen.
-                    Es
-                    war dies Valentin's erster (und bislang einziger) Wettbewerb.</p>
+                <p>
+                    {t('komponist_arge_alp')}
+                </p>
             </div>
             <p className='bold-text px-4 fs-4'>MINDSCAPES</p>
             <div className="embed-responsive embed-responsive-16by9 px-4">
@@ -81,15 +75,10 @@ const Komponist: React.FC = () => {
             </div>
             <div className="p-4 justified">
                 <p>
-                    Mit der Komposition und Uraufführung von „Mindscapes“ für Tenorsaxophon und symphonisches
-                    Blasorchester verwirklichte sich Valentin am 01.01.2023 einen lebenslangen Traum.
-                    Ein dreisätziges Solo-Konzert mit jazzigen Einflüssen aber trotzdem in seiner ganz eigenen
-                    Tonsprache, uraufgeführt bei dem prestigereichen Neujahrskonzert der Bürgerkapelle Gries.
+                    {t('komponist_mindscapes_absatz1')}
                 </p>
                 <p className='fst-italic'>
-                    "Wie durch ein Zauber versetzt uns die Musik von Valentin mit ungehörten harmonischen Abläufen in
-                    wenigen Sekunden ins Innerste unserer eigenen Gefühlswelt. Eine neue Klangwelt für Blasorchester.
-                    Danke dafür!" (Georg Thaler, Kapellmeister der Bürgerkapelle Gries)
+                    {t('komponist_mindscapes_absatz2')}
                 </p>
             </div>
         </div>

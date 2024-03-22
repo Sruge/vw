@@ -158,7 +158,27 @@ body {
     font-size: 1.5rem;
 }
 
+.language-switcher.text-dark .btn-link,
+.language-switcher.text-dark .divider {
+    color: black; /* For dark text on light background pages */
+}
 
+.language-switcher.text-white .btn-link,
+.language-switcher.text-white .divider {
+    color: white; /* For light text on dark background pages */
+}
+
+.language-switcher .btn-link {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    vertical-align: middle; /* Ensures vertical alignment */
+}
+
+.language-switcher .divider {
+    padding: 0 10px;
+    vertical-align: middle;
+}
 
 
 

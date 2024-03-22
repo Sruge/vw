@@ -1,35 +1,32 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import {useTranslation} from "react-i18next";
 
 const TextColumns: React.FC = () => {
+    const {t} = useTranslation();
+
     return (
         <div className="row justified">
             <div className="col-12 col-lg-6">
                 <p>
-                    Willkommen auf der Homepage des Südtiroler Komponisten, Multiinstrumentalisten und Lehrers Valentin Gasser
+                    {t('home_welcome')}
                 </p>
                 <p className='fst-italic'>
-                    „Für mich persönlich fußt mein Musikerdasein auf drei tragenden Säulen:
+                    {t('home_zitat')}
                 </p>
                 <p className='fst-italic'>
-                    <Link className="text-dark fw-bold text-decoration-none" to="/komponist">Komponieren</Link>
+                    <Link className="text-dark fw-bold text-decoration-none" to="/komponist">{t('home_saeule1')}</Link>
                 </p>
                 <p className='fst-italic'>
-                    <Link className="text-dark fw-bold text-decoration-none" to="/musiker">Musizieren</Link>
+                    <Link className="text-dark fw-bold text-decoration-none" to="/musiker">{t('home_saeule2')}</Link>
                 </p>
                 <p className='fst-italic'>
-                    <Link className="text-dark fw-bold text-decoration-none" to="/lehrer">Unterrichten</Link>
+                    <Link className="text-dark fw-bold text-decoration-none" to="/lehrer">{t('home_saeule3')}</Link>
                 </p>
             </div>
             <div className="col-12 col-lg-6">
                 <p className='fst-italic'>
-                    Jeder dieser drei Aspekte ist gleichwertig und zusammen ergänzen sie sich zu meinem Bild eines
-                    umfassenden Musikers. Ich würde nie auf eine dieser drei Tätigkeiten verzichten wollen, da sie sich
-                    gegenseitig befruchten. Als ausführenden Musiker stehe ich auf der Bühne und spiele Werke, die ich
-                    komponiert habe und als Lehrender entdecke ich gemeinsam mit meinen Lernenden neue Nuancen und
-                    Aspekte, die ich dann als Komponist verwenden kann. Es ließen sich noch viele Beispiele finden, doch
-                    zusammengefasst ist es dieser Kreislauf, der mich glücklich macht und es ist mir ein Anliegen diese
-                    „Dreieinigkeit“ auch auf meiner Webseite zum Ausdruck zu bringen.“
+                    {t('home_text')}
                 </p>
             </div>
         </div>

@@ -1,22 +1,23 @@
 import React from 'react';
+import {useTranslation} from "react-i18next";
 
 const Musiker: React.FC = () => {
+    const { t } = useTranslation();
+
     return (
         <div className='p-4'>
         <div className='px-4 justified'>
             <p>
-                Valentin ist seit knapp 20 Jahren als Musiker auf den verschiedensten Bühnen im In- und Ausland
-                unterwegs.
+                {t('musiker_absatz1')}
             </p>
             <p >
-                Ob mit eigenen Gruppen, als Gastsolist, Sideman, Studiomusiker oder Solo.
-                Er bespielt sowohl große Konzertsäle als auch kleine Clubs in den unterschiedlichsten Formationen.
-                Darüberhinaus ist er sehr gefragt auf Hochzeiten und anderen Veranstaltungen. </p>
+                {t('musiker_absatz2')}
+            </p>
             <p >
-                Er hat Bühnenerfahrung mit Saxophon, Klavier, Gitarre, Flöte, Klarinette.
+                {t('musiker_absatz3')}
             </p>
             <p className='bold-heading mb-4'>
-                Eine Auswahl an Projekten an denen Valentin beteiligt ist:
+                {t('musiker_heading_zusammenarbeit')}
             </p>
             <p>
                 Die Seltsamen Senfsamen
@@ -28,12 +29,16 @@ const Musiker: React.FC = () => {
             <p>Südtiroler Jugendbigband</p>
             <p>Bürgerkapelle Gries</p>
 
-            <p className='bold-heading'>Solo:</p>
+            <p className='bold-heading'>
+                {t('musiker_solo')}
+            </p>
             <p>Jazz-Klavier
             </p>
             <p>Saxophon</p>
 
-            <p className='bold-heading'>Zusammenarbeit mit:</p>
+            <p className='bold-heading'>
+                {t('musiker_zusammenarbeit')}
+            </p>
             <p>Berise</p>
             <p>Wicked & Bonny</p>
             <p>Expulze & Narfos</p>

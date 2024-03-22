@@ -15,6 +15,7 @@ const Navbar: React.FC = () => {
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
     const isHomePage = location.pathname === '/' || location.pathname === '/imprint';
     const navLinkClass = isHomePage ? "nav-link text-dark" : "nav-link text-white";
+    const languageSwitcherClass = isHomePage ? "text-dark" : "text-white";
     const togglerIconColor = isHomePage ? "text-dark" : "text-white";
 
     const changeLanguage = (language: string) => {
@@ -37,12 +38,7 @@ const Navbar: React.FC = () => {
                         </button>
                     </>
                 )}
-                <ul>
-                    <li className="nav-item">
-                        <button className="btn btn-light mx-1" onClick={() => changeLanguage('en')}>EN</button>
-                        <button className="btn btn-dark mx-1" onClick={() => changeLanguage('de')}>DE</button>
-                    </li>
-                </ul>
+
                 {!isNavCollapsed && <NavOverlay handleNavCollapse={handleNavCollapse}/>}
 
                 <div className="navbar-nav-desktop">
@@ -59,6 +55,11 @@ const Navbar: React.FC = () => {
                         <li className="nav-item">
                             <Link className={navLinkClass} to="/biografie">BIOGRAFIE</Link>
                         </li>
+                        <div className="language-switcher nav-item d-flex align-items-center">
+                            <button className={`btn btn-link ${navLinkClass}`} onClick={() => changeLanguage('en')}>EN</button>
+                            <span className={`divider ${navLinkClass}`}>|</span>
+                            <button className={`btn btn-link ${navLinkClass}`} onClick={() => changeLanguage('de')}>DE</button>
+                        </div>
                     </ul>
                 </div>
             </div>
