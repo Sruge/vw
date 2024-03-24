@@ -29,40 +29,7 @@ const Komponist: React.FC = () => {
                     {t('komponist_absatz5')}
                 </p>
             </div>
-            <p className='bold-text px-4 fs-4'>SUITE FOR BIG BAND</p>
-            <div className="embed-responsive embed-responsive-16by9 px-4">
-                <iframe
-                    width="100%"
-                    height="166"
-                    scrolling="no"
-                    frameBorder="no"
-                    allow="autoplay"
-                    src={soundCloudEmbedUrl}
-                ></iframe>
-            </div>
-            <div className="p-4 justified">
-                <p>
-                    {t('komponist_bigband')}
-                </p>
-            </div>
-            <p className='bold-text px-4 pt-3 fs-4'>ARGE ALP FANFARE</p>
-            <div className="video-responsive mx-4">
-                <iframe
-                    width="560"
-                    height="315"
-                    src={youtubeEmbedUrl}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                ></iframe>
-            </div>
-            <div className="p-4 justified">
-                <p>
-                    {t('komponist_arge_alp')}
-                </p>
-            </div>
-            <p className='bold-text px-4 fs-4'>MINDSCAPES</p>
+            <p className='bold-text px-4 pt-3 fs-4'>MINDSCAPES</p>
             <div className="embed-responsive embed-responsive-16by9 px-4">
                 <iframe
                     width="100%"
@@ -81,6 +48,40 @@ const Komponist: React.FC = () => {
                     {t('komponist_mindscapes_absatz2')}
                 </p>
             </div>
+            <p className='bold-text px-4 fs-4'>ARGE ALP FANFARE</p>
+            <div className="video-responsive mx-4">
+                <iframe
+                    width="560"
+                    height="315"
+                    src={youtubeEmbedUrl}
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
+            </div>
+            <div className="p-4 justified">
+                <p>
+                    {t('komponist_arge_alp')}
+                </p>
+            </div>
+            <p className='bold-text px-4 fs-4'>SUITE FOR BIG BAND</p>
+            <div className="embed-responsive embed-responsive-16by9 px-4">
+                <iframe
+                    width="100%"
+                    height="166"
+                    scrolling="no"
+                    frameBorder="no"
+                    allow="autoplay"
+                    src={soundCloudEmbedUrl}
+                ></iframe>
+            </div>
+            <div className="p-4 justified">
+                <p>
+                    {t('komponist_bigband')}
+                </p>
+            </div>
+
         </div>
     );
 };
