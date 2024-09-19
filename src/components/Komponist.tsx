@@ -7,6 +7,7 @@ const Komponist: React.FC = () => {
     const soundCloudEmbedUrl = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/459981777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true';
     const soundCloudEmbedUrlMindscapes = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1691143524&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true';
     const youtubeEmbedUrl = 'https://www.youtube.com/embed/_dQQPoF72PQ?si=0aVGtQl_xXnoe35w';
+    const kraftwerkEmbedUrl = 'https://www.youtube.com/embed/cR245bt9Dhw?si=EOxOnEtZf89o_Dsl';
     return (
         <div className='p-4'>
             <div className='px-4 justified'>
@@ -48,6 +49,25 @@ const Komponist: React.FC = () => {
                     {t('komponist_mindscapes_absatz2')}
                 </p>
             </div>
+
+            <p className='bold-text px-4 fs-4'>{t('komponist_kraftwerk_titel')}</p>
+            <div className="video-responsive mx-4">
+                <iframe
+                    width="560"
+                    height="315"
+                    src={kraftwerkEmbedUrl}
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
+            </div>
+            <div className="p-4 justified">
+                <p>
+                    {t('komponist_kraftwerk_text')}
+                </p>
+            </div>
+
             <p className='bold-text px-4 fs-4'>ARGE ALP FANFARE</p>
             <div className="video-responsive mx-4">
                 <iframe
